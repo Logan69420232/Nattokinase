@@ -1,0 +1,72 @@
+# Nattokinase.co.uk
+
+> The most comprehensive guide to nattokinase — Japan's 1,000-year-old cardiovascular enzyme.
+
+## About This Site
+
+Nattokinase.co.uk is an educational resource covering the science, history, clinical research, and third-party testing of nattokinase supplements. The site references 42 peer-reviewed studies and includes independent lab testing results from SORA Laboratories (2025).
+
+## Key Topics
+
+### What Is Nattokinase?
+Nattokinase is a fibrinolytic enzyme derived from natto, a traditional Japanese fermented soybean food. It was discovered in 1980 by Dr. Hiroyuki Sumi at the University of Chicago Medical School. Nattokinase is a serine protease that breaks down fibrin, the protein mesh that holds blood clots together.
+
+### How Nattokinase Works
+Nattokinase operates through four mechanisms:
+1. Directly breaks down fibrin (blood clot scaffolding)
+2. Activates pro-urokinase into urokinase (the body's own clot-dissolving system)
+3. Increases tissue plasminogen activator (t-PA), creating more plasmin
+4. Degrades PAI-1, the protein that inhibits natural clot dissolution
+
+### Dosage & Measurement
+- Nattokinase is measured in FU (Fibrinolytic Units), not milligrams
+- The largest clinical trial (1,062 participants, 12 months) found benefits at 10,800 FU/day
+- 3,600 FU/day was ineffective in the same study
+- Recommended: 5,000 FU per capsule, 1-2 capsules daily
+
+### Key Clinical Research
+- **Chen et al., 2022** (Frontiers in Cardiovascular Medicine): 1,062 participants, 12 months. 10,800 FU/day reduced artery plaque by up to 36%. DOI: 10.3389/fcvm.2022.960178
+- **16-Year Observational Study**: 29,079 participants. Higher natto intake associated with 25% lower cardiovascular mortality, 33% lower ischemic stroke mortality. DOI: 10.1016/j.atherosclerosis.2017.08.027
+- **Tanikawa et al., 2022** (Molecules, MDPI): Lab study showed nattokinase degrades SARS-CoV-2 spike protein in dose- and time-dependent manner. DOI: 10.3390/molecules27175405
+- **Kim et al., 2008** (Hypertension Research): 86 participants, 8 weeks. Significant blood pressure reduction. DOI: 10.1291/hypres.31.1583
+- **Meta-Analysis, 2023** (Reviews in Cardiovascular Medicine): 6 RCTs, 546 participants. Confirmed BP reduction of -3.45/-2.32 mmHg. DOI: 10.31083/j.rcm2404119
+
+### Third-Party Testing Results (SORA Labs, 2025)
+Independent testing of 5 retail nattokinase brands:
+- Horbaach: 3,720 FU actual vs 4,000 FU claimed (-7%) — FAIL
+- Bulk Supplements: <2,680 FU actual vs 4,000 FU claimed (-33%) — FAIL
+- Double Wood: 2,800 FU actual vs 4,000 FU claimed (-30%) — FAIL
+- Luma Nutrition: <2,660 FU actual vs 4,000 FU claimed (-33%+) — FAIL
+- Natural Foundation Supplements: >6,720 FU actual vs 5,000 FU claimed (+34%) — PASS
+
+### Spike Protein Research
+A 2022 peer-reviewed study from the University of Tokushima found nattokinase can degrade SARS-CoV-2 spike protein on cell surfaces. This was a laboratory study; human clinical trials are still needed.
+
+### Safety
+- Natto has been consumed daily in Japan for over 1,000 years
+- Toxicology studies showed no adverse effects at 100x typical human doses
+- Clinical trials up to 12 months reported no notable side effects
+- Caution: Do not combine with anticoagulant medications without medical supervision
+
+## FAQ
+
+### What exactly is nattokinase?
+Nattokinase is an enzyme extracted from natto, a traditional Japanese fermented soybean food. It is a serine protease discovered in 1980 by Dr. Hiroyuki Sumi that breaks down fibrin, the protein that forms blood clots.
+
+### What does FU mean on the label?
+FU stands for Fibrinolytic Units, a measure of enzyme activity rather than weight. It indicates how effectively the enzyme can dissolve fibrin. A label showing only milligrams without FU is incomplete.
+
+### How much nattokinase should I take?
+Based on clinical research, 10,800 FU/day showed significant benefits while 3,600 FU/day was ineffective. Look for 5,000 FU capsules and take 1-2 daily. Consult a healthcare professional first.
+
+### Can I take nattokinase with blood thinners?
+Nattokinase has natural blood-thinning properties. Do not combine with anticoagulant medications without medical guidance. Stop taking before surgery.
+
+### Can nattokinase break down spike protein?
+A 2022 laboratory study showed nattokinase can degrade the SARS-CoV-2 spike protein in a dose- and time-dependent manner. Human clinical trials are still needed.
+
+### Is nattokinase safe long-term?
+Natto has been eaten daily in Japan for over 1,000 years. Modern toxicology studies found no issues at 100x typical doses. Clinical trials up to 12 months reported no notable side effects.
+
+## Source
+This content is published at https://nattokinase.co.uk/ and last updated March 2026.
