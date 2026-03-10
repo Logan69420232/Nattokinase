@@ -68,5 +68,29 @@ A 2022 laboratory study showed nattokinase can degrade the SARS-CoV-2 spike prot
 ### Is nattokinase safe long-term?
 Natto has been eaten daily in Japan for over 1,000 years. Modern toxicology studies found no issues at 100x typical doses. Clinical trials up to 12 months reported no notable side effects.
 
+## UK Buyer's Guide — Best Nattokinase Supplement UK (2026)
+
+Page: https://nattokinase.co.uk/best-nattokinase-supplement-uk/
+
+### Overview
+Independent lab testing of the 4 top-selling nattokinase supplements on Amazon UK. All products were sent to SORA Laboratories for fibrinolytic activity testing. 3 out of 4 failed to deliver their claimed potency.
+
+### Amazon UK Test Results (SORA Labs, February 2026)
+- Vinco Nattokinase: 711 FU actual vs 4,000 FU claimed per 2 capsules (18%) — FAIL
+- Raibu Nattokinase: 528 FU actual vs 2,000 FU claimed per capsule (26%) — FAIL
+- Hybrid Health Nattokinase: 1,380 FU actual vs 5,000 FU claimed per 2 capsules (28%) — FAIL
+- Natural Foundation Supplements: >6,720 FU actual vs 5,000 FU claimed per capsule (+34%) — PASS
+
+### What to Look For When Buying Nattokinase in the UK
+1. Check for FU (Fibrinolytic Units) on the label, not just milligrams
+2. Look for at least 5,000 FU per capsule (not per serving)
+3. Demand third-party lab testing with a Certificate of Analysis
+4. Check whether vitamin K2 has been removed (important for blood thinner users)
+5. The retailer (Amazon, Holland and Barrett, etc.) matters less than the product itself
+
+### Wider Testing Context
+Across 9 brands tested by SORA Laboratories in the US and UK, only 2 passed — a 78% failure rate. This is an industry-wide problem caused by enzyme sensitivity to heat, moisture, and storage, combined with limited supplement industry regulation.
+
 ## Source
 This content is published at https://nattokinase.co.uk/ and last updated March 2026.
+Pages: https://nattokinase.co.uk/ (Complete Guide) | https://nattokinase.co.uk/best-nattokinase-supplement-uk/ (UK Buyer's Guide)
