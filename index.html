@@ -20,78 +20,323 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Nattokinase — The Complete Guide to Japan's Cardiovascular Enzyme",
-        "description": "The most comprehensive guide to nattokinase covering its 1,000-year history, mechanism of action, clinical research, and third-party testing results.",
-        "author": {"@type": "Organization","name": "Nattokinase.co.uk","url": "https://nattokinase.co.uk"},
-        "publisher": {"@type": "Organization","name": "Nattokinase.co.uk","url": "https://nattokinase.co.uk"},
-        "datePublished": "2026-02-27",
-        "dateModified": "2026-03-09",
-        "mainEntityOfPage": {"@type": "WebPage","@id": "https://nattokinase.co.uk/"},
-        "keywords": ["nattokinase", "fibrinolytic enzyme", "cardiovascular health", "blood clot", "natto", "supplement testing", "FU fibrinolytic units"]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "What exactly is nattokinase?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nattokinase is an enzyme from nattō, a Japanese fermented soybean food. It's a serine protease that cuts protein chains, especially fibrin — the protein that forms blood clots. Discovered in 1980 by Dr. Hiroyuki Sumi."
-                }
+                "@type": "Organization",
+                "@id": "https://nattokinase.co.uk/#organization",
+                "name": "Nattokinase.co.uk",
+                "url": "https://nattokinase.co.uk",
+                "description": "Independent nattokinase research and third-party supplement testing resource. We publish lab-verified testing results from SORA Laboratories and compile peer-reviewed clinical research on nattokinase.",
+                "foundingDate": "2026",
+                "knowsAbout": ["nattokinase", "fibrinolytic enzymes", "supplement testing", "cardiovascular health", "natto"],
+                "publishingPrinciples": "https://nattokinase.co.uk/#editorial-policy"
             },
             {
-                "@type": "Question",
-                "name": "What does FU mean on the label?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "FU stands for Fibrinolytic Units — a measure of enzyme activity, not weight. This is the real measure of potency. A label with only milligrams and no FU is incomplete."
-                }
+                "@type": "WebSite",
+                "@id": "https://nattokinase.co.uk/#website",
+                "name": "Nattokinase.co.uk",
+                "url": "https://nattokinase.co.uk",
+                "publisher": {"@id": "https://nattokinase.co.uk/#organization"},
+                "inLanguage": "en-GB",
+                "description": "The most comprehensive guide to nattokinase: clinical research, third-party lab testing, dosage science, and independent supplement reviews."
             },
             {
-                "@type": "Question",
-                "name": "How much nattokinase should I take?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The largest trial (1,062 people, 12 months) found benefits at 10,800 FU/day but 3,600 FU/day didn't work. Look for 5,000 FU capsules, take 1-2 daily. Consult a healthcare professional first."
-                }
+                "@type": "BreadcrumbList",
+                "@id": "https://nattokinase.co.uk/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://nattokinase.co.uk/"
+                    }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Can I take nattokinase with blood thinners?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nattokinase has natural blood-thinning properties. Don't combine it with anticoagulant medications without your doctor's guidance. Stop before surgery."
-                }
+                "@type": ["MedicalWebPage", "Article"],
+                "@id": "https://nattokinase.co.uk/#article",
+                "headline": "Nattokinase — The Complete Guide to Japan's Cardiovascular Enzyme",
+                "description": "The most comprehensive guide to nattokinase covering its 1,000-year history, mechanism of action, clinical research from 6 peer-reviewed studies, and independent third-party testing of 9 supplement brands by SORA Laboratories.",
+                "author": {"@id": "https://nattokinase.co.uk/#organization"},
+                "publisher": {"@id": "https://nattokinase.co.uk/#organization"},
+                "datePublished": "2026-02-27",
+                "dateModified": "2026-04-20",
+                "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nattokinase.co.uk/"},
+                "isPartOf": {"@id": "https://nattokinase.co.uk/#website"},
+                "breadcrumb": {"@id": "https://nattokinase.co.uk/#breadcrumb"},
+                "inLanguage": "en-GB",
+                "keywords": ["nattokinase", "fibrinolytic enzyme", "cardiovascular health", "blood clot", "natto", "supplement testing", "FU fibrinolytic units", "third party tested nattokinase", "nattokinase benefits", "best nattokinase supplement"],
+                "about": {
+                    "@type": "Drug",
+                    "name": "Nattokinase",
+                    "alternateName": ["subtilisin NAT", "natto extract", "NSK-SD"],
+                    "description": "A fibrinolytic serine protease enzyme derived from natto (fermented soybeans), discovered in 1980 by Dr. Hiroyuki Sumi. Nattokinase breaks down fibrin, the protein mesh that holds blood clots together.",
+                    "activeIngredient": "Nattokinase (subtilisin NAT)",
+                    "mechanismOfAction": "Directly cleaves fibrin, activates pro-urokinase into urokinase, increases tissue plasminogen activator (t-PA), and degrades plasminogen activator inhibitor-1 (PAI-1)."
+                },
+                "citation": [
+                    {
+                        "@type": "ScholarlyArticle",
+                        "name": "Nattokinase atherosclerosis trial — Chen et al., 2022",
+                        "url": "https://doi.org/10.3389/fcvm.2022.960178",
+                        "datePublished": "2022",
+                        "isPartOf": {"@type": "Periodical", "name": "Frontiers in Cardiovascular Medicine"}
+                    },
+                    {
+                        "@type": "ScholarlyArticle",
+                        "name": "Natto intake and cardiovascular mortality — 16-year observational study",
+                        "url": "https://doi.org/10.1016/j.atherosclerosis.2017.08.027",
+                        "datePublished": "2017",
+                        "isPartOf": {"@type": "Periodical", "name": "Atherosclerosis"}
+                    },
+                    {
+                        "@type": "ScholarlyArticle",
+                        "name": "Nattokinase spike protein degradation — Tanikawa et al., 2022",
+                        "url": "https://doi.org/10.3390/molecules27175405",
+                        "datePublished": "2022",
+                        "isPartOf": {"@type": "Periodical", "name": "Molecules"}
+                    },
+                    {
+                        "@type": "ScholarlyArticle",
+                        "name": "Nattokinase blood pressure reduction — Kim et al., 2008",
+                        "url": "https://doi.org/10.1291/hypres.31.1583",
+                        "datePublished": "2008",
+                        "isPartOf": {"@type": "Periodical", "name": "Hypertension Research"}
+                    },
+                    {
+                        "@type": "ScholarlyArticle",
+                        "name": "Nattokinase and red yeast rice — Liu et al., 2024",
+                        "url": "https://doi.org/10.3389/fnut.2024.1376835",
+                        "datePublished": "2024",
+                        "isPartOf": {"@type": "Periodical", "name": "Frontiers in Nutrition"}
+                    },
+                    {
+                        "@type": "ScholarlyArticle",
+                        "name": "Nattokinase blood pressure meta-analysis — 2023",
+                        "url": "https://doi.org/10.31083/j.rcm2404119",
+                        "datePublished": "2023",
+                        "isPartOf": {"@type": "Periodical", "name": "Reviews in Cardiovascular Medicine"}
+                    }
+                ],
+                "specialty": "Cardiovascular Medicine"
             },
             {
-                "@type": "Question",
-                "name": "Can nattokinase break down spike protein?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A 2022 lab study showed nattokinase can degrade the SARS-CoV-2 spike protein in a dose- and time-dependent way. Promising, but human clinical trials are still needed."
-                }
+                "@type": "HowTo",
+                "@id": "https://nattokinase.co.uk/#howto",
+                "name": "How to Take Nattokinase: Dosage Guide Based on Clinical Research",
+                "description": "Evidence-based nattokinase dosage guide based on the largest clinical trial (1,062 participants, 12 months). Learn the clinically effective dose, what FU means, and how to choose a quality supplement.",
+                "step": [
+                    {
+                        "@type": "HowToStep",
+                        "position": 1,
+                        "name": "Understand FU (Fibrinolytic Units)",
+                        "text": "Nattokinase potency is measured in FU (Fibrinolytic Units), not milligrams. FU measures actual enzyme activity — how effectively the nattokinase can dissolve fibrin. A label showing only milligrams without FU tells you nothing about potency."
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 2,
+                        "name": "Choose the right dose",
+                        "text": "The largest clinical trial (Chen et al., 2022 — 1,062 participants over 12 months) found significant cardiovascular benefits at 10,800 FU per day. The lower dose group (3,600 FU/day) showed no significant improvement. Look for capsules with at least 5,000 FU each."
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 3,
+                        "name": "Take 1-2 capsules daily",
+                        "text": "Take one to two 5,000 FU capsules daily to reach the clinically effective range of 5,000–10,000 FU per day. Consult a healthcare professional before starting, especially if you take blood thinners or other medications."
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 4,
+                        "name": "Verify third-party testing",
+                        "text": "Choose a brand with independent third-party lab testing. SORA Laboratories testing found that 7 out of 9 brands failed to deliver their claimed potency. Look for a Certificate of Analysis (COA) from an independent lab like SORA Labs, ConsumerLab, USP, or NSF."
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "position": 5,
+                        "name": "Check for vitamin K2 removal",
+                        "text": "If you take blood thinners such as warfarin, ensure the nattokinase product has vitamin K2 removed. Look for 'NSK-SD' or 'vitamin K2 removed' on the label. Do not combine nattokinase with anticoagulant medications without your doctor's guidance."
+                    }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Is nattokinase safe long-term?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Natto has been eaten daily in Japan for 1,000+ years. Modern toxicology studies found no issues at 100x typical doses. Clinical trials up to 12 months reported no notable side effects."
-                }
+                "@type": "ItemList",
+                "@id": "https://nattokinase.co.uk/#testing-results",
+                "name": "SORA Laboratories Independent Nattokinase Testing Results (2025)",
+                "description": "Independent third-party lab testing of 5 retail nattokinase supplement brands. Each product was tested for actual fibrinolytic activity (FU) versus label claims by SORA Laboratories.",
+                "numberOfItems": 5,
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Natural Foundation Supplements Nattokinase",
+                            "brand": {"@type": "Brand", "name": "Natural Foundation Supplements"},
+                            "category": "Nattokinase Supplement",
+                            "description": "5,000 FU per capsule nattokinase supplement. Independent SORA Labs testing confirmed >6,720 FU actual potency — 34% above label claim. The only brand to pass testing.",
+                            "review": {
+                                "@type": "Review",
+                                "reviewBody": "SORA Laboratories testing confirmed >6,720 FU actual potency versus 5,000 FU label claim — 34% above what was promised. This was the only brand out of 5 tested that passed independent verification.",
+                                "author": {"@id": "https://nattokinase.co.uk/#organization"},
+                                "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1"}
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Horbaach Nattokinase",
+                            "brand": {"@type": "Brand", "name": "Horbaach"},
+                            "category": "Nattokinase Supplement",
+                            "description": "Claimed 4,000 FU per 2 capsules. SORA Labs testing found 3,720 FU actual — 7% below label claim. Failed testing.",
+                            "review": {
+                                "@type": "Review",
+                                "reviewBody": "SORA Laboratories testing found 3,720 FU actual potency versus 4,000 FU label claim — 7% below what was promised. Failed independent verification.",
+                                "author": {"@id": "https://nattokinase.co.uk/#organization"},
+                                "reviewRating": {"@type": "Rating", "ratingValue": "2", "bestRating": "5", "worstRating": "1"}
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Bulk Supplements Nattokinase",
+                            "brand": {"@type": "Brand", "name": "Bulk Supplements"},
+                            "category": "Nattokinase Supplement",
+                            "description": "Claimed 4,000 FU per capsule. SORA Labs testing found less than 2,680 FU actual — 33% below label claim. Failed testing.",
+                            "review": {
+                                "@type": "Review",
+                                "reviewBody": "SORA Laboratories testing found less than 2,680 FU actual potency versus 4,000 FU label claim — 33% below what was promised. Failed independent verification.",
+                                "author": {"@id": "https://nattokinase.co.uk/#organization"},
+                                "reviewRating": {"@type": "Rating", "ratingValue": "1", "bestRating": "5", "worstRating": "1"}
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Double Wood Nattokinase",
+                            "brand": {"@type": "Brand", "name": "Double Wood"},
+                            "category": "Nattokinase Supplement",
+                            "description": "Claimed 4,000 FU per 2 capsules. SORA Labs testing found 2,800 FU actual — 30% below label claim. Failed testing.",
+                            "review": {
+                                "@type": "Review",
+                                "reviewBody": "SORA Laboratories testing found 2,800 FU actual potency versus 4,000 FU label claim — 30% below what was promised. Failed independent verification.",
+                                "author": {"@id": "https://nattokinase.co.uk/#organization"},
+                                "reviewRating": {"@type": "Rating", "ratingValue": "1", "bestRating": "5", "worstRating": "1"}
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 5,
+                        "item": {
+                            "@type": "Product",
+                            "name": "Luma Nutrition Nattokinase",
+                            "brand": {"@type": "Brand", "name": "Luma Nutrition"},
+                            "category": "Nattokinase Supplement",
+                            "description": "Claimed 4,000 FU per 2 capsules. SORA Labs testing found less than 2,660 FU actual — over 33% below label claim. Failed testing.",
+                            "review": {
+                                "@type": "Review",
+                                "reviewBody": "SORA Laboratories testing found less than 2,660 FU actual potency versus 4,000 FU label claim — over 33% below what was promised. Failed independent verification.",
+                                "author": {"@id": "https://nattokinase.co.uk/#organization"},
+                                "reviewRating": {"@type": "Rating", "ratingValue": "1", "bestRating": "5", "worstRating": "1"}
+                            }
+                        }
+                    }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Why do many brands fail testing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nattokinase is an enzyme sensitive to heat, moisture, and storage. The supplement industry has less regulation than pharmaceuticals. Independent testing is the only way to know what you're getting."
-                }
+                "@type": "FAQPage",
+                "@id": "https://nattokinase.co.uk/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What exactly is nattokinase?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nattokinase is a fibrinolytic enzyme extracted from nattō, a traditional Japanese fermented soybean food. It is a serine protease that directly breaks down fibrin — the protein mesh that holds blood clots together. It was discovered in 1980 by Dr. Hiroyuki Sumi at the University of Chicago Medical School. Nattokinase also activates the body's own clot-dissolving system through pro-urokinase and t-PA pathways."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What does FU mean on a nattokinase label?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "FU stands for Fibrinolytic Units — a standardised measure of nattokinase enzyme activity, not weight. FU measures how effectively the enzyme can dissolve fibrin (blood clot protein). This is the only meaningful measure of nattokinase potency. A label showing only milligrams without FU tells you nothing about whether the product actually works. The largest clinical trial used 10,800 FU per day."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How much nattokinase should I take per day?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Based on the largest clinical trial (Chen et al., 2022 — 1,062 participants over 12 months), 10,800 FU per day produced significant cardiovascular benefits including up to 36% reduction in artery plaque. The lower dose group at 3,600 FU/day showed no significant improvement. Look for capsules with at least 5,000 FU each and take 1-2 daily. Always consult a healthcare professional before starting any supplement."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I take nattokinase with blood thinners like warfarin?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nattokinase has natural blood-thinning properties through its fibrinolytic action. Do not combine nattokinase with anticoagulant medications such as warfarin, heparin, or aspirin without your doctor's explicit guidance. If you take warfarin, ensure any nattokinase product has vitamin K2 removed (look for 'NSK-SD' on the label). Stop taking nattokinase before any scheduled surgery."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can nattokinase break down spike protein?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "A 2022 peer-reviewed laboratory study (Tanikawa et al., published in Molecules, MDPI) from the University of Tokushima found that nattokinase can degrade the SARS-CoV-2 spike protein on cell surfaces in a dose-dependent and time-dependent manner. This is a promising finding, but it was a laboratory (in vitro) study — human clinical trials are still needed to confirm whether nattokinase has the same effect in the human body."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is nattokinase safe for long-term use?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nattō (fermented soybeans containing nattokinase) has been consumed daily in Japan for over 1,000 years. Modern toxicology studies found no adverse effects at doses 100 times higher than typical human consumption. Clinical trials lasting up to 12 months reported no notable side effects. However, nattokinase should not be taken with blood-thinning medications without medical supervision, and should be stopped before surgery."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why do so many nattokinase brands fail independent testing?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SORA Laboratories independently tested 9 retail nattokinase brands across the US and UK — 7 out of 9 (78%) failed to deliver their claimed potency. Nattokinase is a delicate enzyme sensitive to heat, moisture, and improper storage. Many manufacturers use low-quality raw materials or lose potency through poor handling. The supplement industry has significantly less regulation than pharmaceuticals, making independent third-party testing the only reliable way to verify what you're actually getting."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the researched effects of nattokinase?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Published research on nattokinase includes the following findings, each with important limitations: (1) A 12-month randomised trial of 1,062 participants reported reductions in measured carotid artery wall thickness at 10,800 FU/day — a surrogate imaging marker, not a direct measure of heart attack or stroke events. (2) A 16-year observational cohort of 29,079 people associated higher natto intake with lower cardiovascular and ischemic stroke mortality; because it is observational, it shows association rather than causation. (3) A 2023 meta-analysis of 6 randomised controlled trials reported pooled blood-pressure reductions of 3.45 mmHg systolic and 2.32 mmHg diastolic versus placebo. (4) Several smaller trials have reported changes in lipid markers. Most of this evidence comes from East Asian study populations and has not yet been replicated in independent large-scale trials measuring hard clinical outcomes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What is the best third-party tested nattokinase supplement?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Based on independent SORA Laboratories testing of 9 retail brands, Natural Foundation Supplements was the top performer — delivering over 6,720 FU per capsule against a 5,000 FU label claim (34% above what was promised). It was one of only 2 brands out of 9 tested that passed. When choosing a nattokinase supplement, look for: (1) FU on the label, not just milligrams, (2) independent third-party lab testing with a Certificate of Analysis, (3) at least 5,000 FU per capsule, and (4) vitamin K2 removed if you take blood thinners."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Nattokinase vs serrapeptase — what is the difference?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nattokinase and serrapeptase are both proteolytic enzymes, but they work differently. Nattokinase specifically targets fibrin (blood clot protein) and has strong clinical evidence for cardiovascular benefits — including a 12-month trial with 1,062 participants showing artery plaque reduction. Serrapeptase is primarily studied for inflammation and pain. Nattokinase has more robust clinical evidence for cardiovascular health, while serrapeptase has weaker evidence overall. They should not be combined with blood thinners without medical supervision."
+                        }
+                    }
+                ]
             }
         ]
     }
@@ -399,7 +644,7 @@
     <div class="hero-content">
         <div class="hero-eyebrow">The Complete Guide</div>
         <h1>Nattokinase: Japan's <em>1,000-Year-Old</em> Cardiovascular Secret</h1>
-        <p class="hero-sub">From ancient Japanese kitchens to modern clinical trials — everything you need to know about the enzyme that dissolves blood clots and clears arteries.</p>
+        <p class="hero-sub">From ancient Japanese kitchens to modern clinical trials — a look at the research on this fibrinolytic enzyme and its studied effects on cardiovascular markers.</p>
         <p class="hero-meta">Last updated February 2026 &nbsp;·&nbsp; 18 min read &nbsp;·&nbsp; 42 studies referenced</p>
     </div>
     <div class="scroll-indicator"><span>Scroll</span><div class="scroll-arrow"></div></div>
@@ -432,7 +677,7 @@
                 <div class="study-meta-item">📅 <strong>12 months</strong></div>
                 <div class="study-meta-item">🎂 Average age: <strong>68 years</strong></div>
             </div>
-            <p>Researchers gave over 1,000 people a daily dose of 10,800 FU of nattokinase for a full year. The results were impressive: artery plaque buildup and high cholesterol were effectively managed. The lower dose of 3,600 FU/day did <em>not</em> work — only 10,800 FU/day made a real difference. This dose was safe and well-tolerated. Adding vitamin K2 and aspirin led to even better outcomes.</p>
+            <p>This randomised controlled trial assigned over 1,000 participants to a daily dose of 10,800 FU of nattokinase for 12 months. In this study, participants receiving 10,800 FU/day showed reductions in measured artery wall thickness and changes in lipid markers compared to the 3,600 FU/day group, where no significant changes were observed. No notable adverse events were reported over the trial period. Sub-groups receiving nattokinase with vitamin K2 or aspirin showed larger changes in the measured outcomes within this trial.</p>
 
             <h4 style="font-family:'DM Sans',sans-serif;font-size:0.78rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin:2rem 0 1rem;">Percentage of Participants Who Improved</h4>
             <div>
@@ -448,29 +693,29 @@
                 <div class="artery-arrow">→</div>
                 <div class="artery-card"><div class="artery-circle after">1.04mm</div><div class="artery-label">After 12 Months</div></div>
             </div>
-            <p style="text-align:center;font-family:'DM Sans',sans-serif;font-size:0.85rem;color:var(--muted);">Artery plaque size decreased by up to <strong style="color:var(--accent);font-size:1.1rem;">36%</strong> — clearer arteries, better blood flow, and lower risk of heart attack and stroke.</p>
+            <p style="text-align:center;font-family:'DM Sans',sans-serif;font-size:0.85rem;color:var(--muted);">In this 12-month trial, mean carotid intima-media thickness decreased by up to <strong style="color:var(--accent);font-size:1.1rem;">36%</strong> in the 10,800 FU/day group. This is a surrogate marker measured by ultrasound — it does not directly demonstrate reduced heart attack or stroke events, which would require larger, longer outcome trials.</p>
         </div>
 
         <div class="study-highlight fade-in">
             <div class="study-icon">🍛</div>
-            <h3 style="margin-top:0;">Study 2: Eating Natto Reduced Heart Disease Deaths</h3>
+            <h3 style="margin-top:0;">Study 2: Higher Natto Intake Associated With Lower Cardiovascular Mortality</h3>
             <div class="study-meta">
                 <div class="study-meta-item">👥 <strong>29,079</strong>&nbsp;participants</div>
                 <div class="study-meta-item">📅 <strong>16 years</strong>&nbsp;of follow-up</div>
                 <div class="study-meta-item">🎂 Average age: <strong>55 years</strong></div>
                 <div class="study-meta-item">🔬 Observational study</div>
             </div>
-            <p>Researchers tracked nearly 30,000 Japanese men and women for 16 years, comparing health outcomes based on how much natto they ate. The results were clear: more natto meant fewer deaths from heart disease and stroke.</p>
+            <p>This observational cohort study followed nearly 30,000 Japanese men and women for 16 years, comparing self-reported natto intake with recorded health outcomes. Participants in the highest natto-intake group had statistically lower cardiovascular mortality than those in the lowest-intake group. Because this is an observational study, it can only demonstrate association — not causation. Dietary, lifestyle, or other unmeasured factors may contribute to the findings.</p>
 
             <div class="cv-chart">
                 <h4>Risk Reduction: Highest vs Lowest Natto Intake</h4>
                 <div class="cv-chart-grid">
-                    <div class="cv-metric heart"><div class="cv-metric-icon">🫀</div><div class="cv-metric-reduction">-25%</div><div class="cv-metric-label">Cardiovascular<br>Disease Mortality</div><div class="cv-metric-desc">Lower risk of dying from heart disease</div></div>
-                    <div class="cv-metric stroke"><div class="cv-metric-icon">🧠</div><div class="cv-metric-reduction">-31%</div><div class="cv-metric-label">All Stroke<br>Mortality</div><div class="cv-metric-desc">Lower risk of dying from any type of stroke</div></div>
-                    <div class="cv-metric ischemic"><div class="cv-metric-icon">💚</div><div class="cv-metric-reduction">-33%</div><div class="cv-metric-label">Ischemic Stroke<br>Mortality</div><div class="cv-metric-desc">Lower risk of dying from clot-based strokes</div></div>
+                    <div class="cv-metric heart"><div class="cv-metric-icon">🫀</div><div class="cv-metric-reduction">-25%</div><div class="cv-metric-label">Cardiovascular<br>Disease Mortality</div><div class="cv-metric-desc">Associated with lower recorded cardiovascular mortality</div></div>
+                    <div class="cv-metric stroke"><div class="cv-metric-icon">🧠</div><div class="cv-metric-reduction">-31%</div><div class="cv-metric-label">All Stroke<br>Mortality</div><div class="cv-metric-desc">Associated with lower recorded stroke mortality</div></div>
+                    <div class="cv-metric ischemic"><div class="cv-metric-icon">💚</div><div class="cv-metric-reduction">-33%</div><div class="cv-metric-label">Ischemic Stroke<br>Mortality</div><div class="cv-metric-desc">Associated with lower recorded ischemic stroke mortality</div></div>
                 </div>
             </div>
-            <p style="font-size:0.9rem;color:var(--muted);">In simple terms: People who ate the most natto had a quarter fewer deaths from heart disease, nearly a third fewer stroke deaths, and a third fewer deaths from clot-based strokes compared to those who ate the least.</p>
+            <p style="font-size:0.9rem;color:var(--muted);">In simple terms: participants in the highest natto-intake group had around a quarter fewer cardiovascular deaths and around a third fewer stroke deaths recorded during follow-up, compared with the lowest-intake group. This is an association observed in a population study and does not on its own establish that natto caused the difference.</p>
         </div>
 
         <div class="fade-in">
@@ -508,7 +753,7 @@
                 <div class="dosage-pill">5,000 FU <span class="pill-sub">/ capsule</span></div>
                 <div class="dosage-pill">10,000 FU <span class="pill-sub">/ day</span></div>
             </div>
-            <p style="color:var(--muted);font-size:0.85rem;margin-top:1rem;">The biggest study used 10,800 FU/day with strong results. The lower dose of 3,600 FU/day did <em>not</em> work. Look for capsules with 5,000 FU each — take 1 or 2 daily. Always check for FU on the label, <em>not</em> just milligrams.</p>
+            <p style="color:var(--muted);font-size:0.85rem;margin-top:1rem;">The largest published trial used 10,800 FU/day and reported changes in measured cardiovascular markers at that dose; the 3,600 FU/day group did not show significant changes. Look for capsules with 5,000 FU each — take 1 or 2 daily. Always check for FU on the label, <em>not</em> just milligrams.</p>
         </div>
     </div>
 </section>
@@ -522,11 +767,11 @@
             <div class="section-label">Part One</div>
             <h2>The Story of <em>Nattō</em></h2>
             <p class="lead">Before it became a supplement, nattokinase was breakfast. To understand this enzyme, you need to know the food it comes from — and the country that's eaten it every morning for a thousand years.</p>
-            <p>Nattō is a traditional Japanese food made from whole soybeans fermented with the bacterium <em>Bacillus subtilis</em> var. <em>natto</em>. It's sticky, stringy, strong-smelling, and very much an acquired taste. And yet this humble fermented food contains one of the most powerful natural blood-clot-dissolving enzymes ever found.</p>
+            <p>Nattō is a traditional Japanese food made from whole soybeans fermented with the bacterium <em>Bacillus subtilis</em> var. <em>natto</em>. It's sticky, stringy, strong-smelling, and very much an acquired taste. It also contains one of the more extensively studied natural fibrinolytic enzymes.</p>
             <h3>A Warrior's Accidental Discovery</h3>
             <p>The most popular origin story dates to the 11th century. During a war in northeast Japan (1051–1062 AD), a samurai commander was marching his army. Boiled soybeans for horse feed were packed into rice straw bales. The horses' body heat, moisture, and naturally present bacteria created perfect fermentation conditions. When the bales were opened, the soybeans had transformed — covered in white film, connected by sticky threads.</p>
             <h3>From Food to Medicine</h3>
-            <p>For hundreds of years, natto was just food. Then in 1980, Dr. Hiroyuki Sumi placed a small piece of natto on an artificial blood clot in a lab dish. Within 18 hours, the clot had completely dissolved. He had discovered an extremely powerful enzyme — one that breaks down fibrin, the protein mesh that holds blood clots together. He published his findings in 1987 and named it "nattokinase."</p>
+            <p>For hundreds of years, natto was just food. Then in 1980, Dr. Hiroyuki Sumi placed a small piece of natto on an artificial blood clot in a lab dish. Within 18 hours, the clot had dissolved. He had identified an enzyme with notable fibrinolytic activity in vitro — one that breaks down fibrin, the protein mesh that holds blood clots together. He published his findings in 1987 and named it "nattokinase."</p>
         </div>
         <div class="pull-quote fade-in">
             <blockquote>"I had searched over 173 different foods for a natural agent that could dissolve thrombus, and I found it in nattō."</blockquote>
@@ -550,7 +795,7 @@
                 <div class="timeline-item"><div class="timeline-date">1987</div><h3>Nattokinase Named &amp; Published</h3><p>First scientific paper identifying and naming nattokinase.</p></div>
                 <div class="timeline-item"><div class="timeline-date">2008</div><h3>Blood Pressure Trial</h3><p>Clinical trial shows nattokinase significantly reduces blood pressure.</p></div>
                 <div class="timeline-item"><div class="timeline-date">2022</div><h3>Largest Study &amp; Spike Protein Research</h3><p>1,062-participant study shows plaque reduction; separate lab study shows spike protein degradation.</p></div>
-                <div class="timeline-item"><div class="timeline-date">2023–2025</div><h3>Meta-Analyses Confirm Benefits</h3><p>Multiple systematic reviews confirm blood pressure and cardiovascular benefits.</p></div>
+                <div class="timeline-item"><div class="timeline-date">2023–2025</div><h3>Meta-Analyses Pool Blood-Pressure Data</h3><p>Systematic reviews report pooled reductions in blood pressure across included trials.</p></div>
             </div>
         </div>
     </div>
@@ -564,7 +809,7 @@
             <h2>How Nattokinase Works <em>in the Body</em></h2>
             <p>Unlike most supplements that work through just one pathway, nattokinase works through four different mechanisms at the same time. Its main target is fibrin — the protein that forms the scaffolding of blood clots.</p>
             <div class="mechanism-grid">
-                <div class="mechanism-card"><div class="num">01</div><h3>Breaks Down Fibrin Directly</h3><p>Dissolves the protein mesh holding blood clots together. Its most powerful action.</p></div>
+                <div class="mechanism-card"><div class="num">01</div><h3>Breaks Down Fibrin Directly</h3><p>Directly cleaves fibrin — the protein mesh that forms blood clots — in laboratory studies.</p></div>
                 <div class="mechanism-card"><div class="num">02</div><h3>Activates Pro-Urokinase</h3><p>Converts inactive pro-urokinase into active urokinase, boosting your body's own clot-dissolving system.</p></div>
                 <div class="mechanism-card"><div class="num">03</div><h3>Increases t-PA</h3><p>Increases tissue plasminogen activator, which creates plasmin — another clot-breaking enzyme.</p></div>
                 <div class="mechanism-card"><div class="num">04</div><h3>Breaks Down PAI-1</h3><p>Destroys the protein that normally blocks your body from dissolving clots.</p></div>
@@ -592,7 +837,7 @@
             </div>
             <h3 style="color:#7dd3fc;">What the Study Found</h3>
             <p>When cells with spike protein were treated with nattokinase, the spike protein on the cell surface was significantly reduced. The effect was dose-dependent (more nattokinase = more degradation) and time-dependent (longer exposure = more breakdown). Importantly, this happened at concentrations that were not toxic to cells.</p>
-            <p>The researchers concluded that nattokinase shows potential for inhibiting SARS-CoV-2 infection by breaking down the spike protein. This is a laboratory finding — human clinical trials are still needed. But the results are promising, especially combined with nattokinase's ability to dissolve fibrin-based blood clots, a known complication of COVID-19.</p>
+            <p>The researchers concluded that nattokinase shows potential for inhibiting SARS-CoV-2 infection by breaking down the spike protein. The authors described the findings as warranting further study. This is preliminary in-vitro work and no conclusions should be drawn about effects in humans until clinical trials are conducted.</p>
             <p style="font-size:0.85rem;font-style:italic;opacity:0.6;">Study: <a href="https://doi.org/10.3390/molecules27175405" target="_blank" rel="noopener" style="color:#7dd3fc;">Tanikawa et al. (2022)</a> — "Degradative Effect of Nattokinase on Spike Protein of SARS-CoV-2" — Molecules, 27(17), 5405. Published by MDPI, peer-reviewed.</p>
         </div>
     </div>
@@ -606,13 +851,15 @@
             <h2>What the <em>Research</em> Shows</h2>
             <p class="lead">Here's what the evidence says across key areas of heart health.</p>
             <h3>Blood Pressure</h3>
-            <p>A 2023 review of multiple clinical trials found nattokinase reduced systolic blood pressure by 3.45 mmHg and diastolic by 2.32 mmHg vs placebo. Earlier trials confirmed reductions in just 8 weeks.</p>
+            <p>A 2023 meta-analysis of clinical trials reported pooled reductions of 3.45 mmHg systolic and 2.32 mmHg diastolic versus placebo across the included studies. Individual trials have been small and heterogeneous in design.</p>
             <h3>Cholesterol &amp; Lipids</h3>
-            <p>A 2024 trial of 178 patients found nattokinase combined with red yeast rice was most effective — reducing triglycerides, cholesterol, and blood pressure while raising HDL. The 1,062-participant study confirmed improvements at 10,800 FU/day.</p>
+            <p>In a 2024 trial of 178 patients, the nattokinase + red yeast rice arm showed the largest changes across the measured lipid and blood-pressure markers within that trial. The 1,062-participant trial also reported changes in lipid markers at 10,800 FU/day.</p>
             <h3>Atherosclerosis</h3>
-            <p>The 1,062-participant study found significant reductions in artery wall thickness and plaque size after 12 months at 10,800 FU/day, with improvement rates from 66.5% to 95.4%.</p>
+            <p>The 1,062-participant trial reported reductions in measured carotid artery wall thickness after 12 months at 10,800 FU/day. Findings have not yet been replicated in independent large-scale trials.</p>
             <h3>Safety</h3>
             <p>Natto has been eaten in Japan for centuries. Toxicology studies found no problems at 100x typical human doses. Clinical trials up to 12 months reported no notable side effects. Don't take with blood thinners without medical advice.</p>
+            <h3>Limitations of the Current Evidence</h3>
+            <p>Most published nattokinase research comes from a small number of trials, predominantly conducted in East Asian populations, often without independent replication. Several of the most-cited findings are from observational cohorts (which cannot establish causation) or from trials measuring surrogate markers such as arterial wall thickness or blood pressure, rather than hard clinical endpoints such as heart attack or stroke events. Readers should treat the findings as evidence of studied effects under specific trial conditions, not as established clinical treatment outcomes.</p>
         </div>
         <div class="fade-in">
             <h3>Key Clinical Studies</h3>
